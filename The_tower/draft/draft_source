@@ -1,0 +1,427 @@
+空格 道路（0）; * 外围墙壁（1）; W 墙壁（1）; Y B R G I 门（3～7）; < 入口（18）; > 出口（19）;
+S M L 商店（10～12）; ! oldman(13); @ oldlady(14); # angel[MAP](15); $ thief[CHECK](16); & oldbig(17);
+% [FLY] （247）; ^ 小刀（249）;
+y b r g i 钥匙（240~244）;
+q w e addlife(200~202);
+o p addmoney(210~211);
+a s d addattack(220~222);
+z x c adddefence(230~232);
+C D E F 陷阱（250～253）,Q 253号陷阱出口（9）;
+1~99 monster(100~199);
+
+1
+* * * * * * * * * * * * * * *
+* q a 5 y b W o W b y 5 a q *
+* a 6 a 6 7 W o W 7 6 a 6 a *
+* 5         W   W         5 *
+*           W y W           *
+*       5 q W   W q 5       *
+* W W W Y W W   W W Y W W W *
+* y o         5         o y *
+* W W W B W W   W W B W W W *
+*       5   W   W   5       *
+*           W   W           *
+* 5       6 W y W 6       5 *
+* z 6   7 z W   W z 7   6 z *
+* q z 5 a q W > W q a 5 z q *
+* * * * * * * * * * * * * * *
+2
+* * * * * * * * * * * * * * *
+* > 8 a     B < y b     7 q *
+* 8 a     W W W W W       7 *
+* a     W   W   8   W       *
+*     W   W   8 S 8   W     *
+* 9 W     W     8       W 8 *
+*   W       W           W   *
+* Y B 7       R       7 B Y *
+*   W           W       W   *
+* 9 W       8     W     W 8 *
+*     W   8 # 8   W   W     *
+*       W   8   W   W       *
+* 7       W W W W W       7 *
+* z 7       a q z       7 a *
+* * * * * * * * * * * * * * *
+3
+* * * * * * * * * * * * * * *
+* <   q 5 y a 5 b z 5     > *
+* W W W W W W G W W W W W W *
+* w w   46  W   W   50  y y *
+* s s   46  W a W   50  b b *
+* x x   48  W z W   54  r r *
+* w w   46  W q W   50  o o *
+* s x   4644Y   Y 4650  p p *
+* W W W W W W 46W W W W W W *
+* w 54w   48B   R 50  w 56o *
+* 56w 50    W   W     54w 58*
+* s 54s     W   W     p 56p *
+* 56s 50    W   W     54s 58*
+* x 54x     W   W     w 56y *
+* * * * * * * * * * * * * * *
+4
+* * * * * * * * * * * * * * *
+* > W         $         W < *
+*   W       o o o       W   *
+*   W W W W W I W W W W W 9 *
+*   W i q 22  26  24q i W   *
+* 12W a 22          24a W 9 *
+*   W 22              24W   *
+* 12W b               b W 9 *
+*   W 18              20W   *
+* y W z 18          20z W y *
+*   W i a 18  10  20z i W   *
+*   W W W W W B W W W W W r *
+*   W 10      10      10W   *
+*   Y     9       8     Y   *
+* * * * * * * * * * * * * * *
+5
+* * * * * * * * * * * * * * *
+* < W y o b W w 26s 26x 26w *
+* q W b r y W 24a 24z 24z 24*
+* 12W       W q 22q 22q 22a *
+*   W 202020W               *
+* 9 W       W W W y b W W W *
+*   W           W     W     *
+* 12B b     1012W 16  W     *
+* W W W W W W Y W R W W     *
+*       2016B 14  16        *
+*         18W               *
+* r r x     W       12121616*
+* b b s     W 16    16s x o *
+* y y w     W < 16  16q a y *
+* * * * * * * * * * * * * * *
+6
+* * * * * * * * * * * * * * *
+* y r q   W   W y b w y b r *
+* q z 20  W   W W W W W W x *
+*     1812Y   B 24  q x   26*
+* W W B W W   W   w s   a z *
+* !   24  W   W W W W W W W *
+*         W   Y 18a 10W   b *
+* 2024    W   W z 20q R   > *
+* w s 24  W   W 18s 26W     *
+* W W R W W   W W W W W W W *
+* @   18  R                 *
+* 2624    W W R W W W Y W W *
+* x 26    W r     W q 1820a *
+* w s 26  W   <   W q r a z *
+* * * * * * * * * * * * * * *
+7
+* * * * * * * * * * * * * * *
+* W W W     R   24    W W W *
+* W W   z   W   W   q   W W *
+* W   a     W 35W     a   W *
+*   q     24W   W 26    z   *
+*       24r W i W x 26      *
+* Y W W W W W I W W W W W Y *
+* >   35  i I d I i   35  < *
+* 20W W W W W I W W W W W 22*
+*       24w W i W s 26      *
+*   q     24W   W 26    z   *
+* W   a     W 35W     a   W *
+* W W   z   W   W   q   W W *
+* W W W     24  R     W W W *
+* * * * * * * * * * * * * * *
+8
+* * * * * * * * * * * * * * *
+* i   W w w s x s w w W   i *
+*   40  W   262626  W   40  *
+* W       W       W       W *
+* w W       20  B       W x *
+* 22  W       W       W   o *
+*       Y   I   I   24  26b *
+* <       W   c   W     26o *
+*       18  I   I   Y   26y *
+* 22  W       W       W   o *
+* r W       R   24      W x *
+* W       W       W       W *
+*   40  W           W   40  *
+* i   W s22   >   22x W   i *
+* * * * * * * * * * * * * * *
+9
+* * * * * * * * * * * * * * *
+* w s 22      >       24x w *
+* x 22                  24s *
+* 22                      24*
+*                           *
+*                           *
+* y         E E E         y *
+*           E e E           *
+* b         E E E         b *
+*                           *
+*                           *
+* 26                      20*
+* s 26                  20x *
+* w x 26      <       20s w *
+* * * * * * * * * * * * * * *
+10
+* * * * * * * * * * * * * * *
+* q B 20b W   <   W x 28Y   *
+* a W   r W 282428W w s W 26*
+* z W W W W       W W W W q *
+* 26W r   30      28  w W   *
+*   W W W W W R W W W W W 18*
+* 24x W 18Y       B   26R   *
+*   26W   W W B W W 26y R q *
+*     W o W       W     W   *
+*     W q W q a q W 1820W a *
+* 26  W   W a z z W o o W   *
+* x W W q W       W Y W W z *
+* s 30B b W 262026W     W   *
+* w 26R y W   >   W y b W % *
+* * * * * * * * * * * * * * *
+11
+* * * * * * * * * * * * * * *
+* 26x 26x 24s 24s 24w 22w 22*
+*   W W W W W W W W W W W   *
+* o W 38  40  40  w   40W y *
+* 28W   W W W W W W W   W 20*
+*   W 38W 48s     g W w W   *
+* b W y W w         W y W z *
+* 28W w W     >     W   W 20*
+*   W 36W 44      p W 42W   *
+* p W   W R W   x 48W   W a *
+* 32W 36W 42W W W W W s W 18*
+* Y W B W     42  x   42W   *
+* p p 34W W W W W W W W W a *
+* M     R B Y < r 16q 16q 18*
+* * * * * * * * * * * * * * *
+12
+* * * * * * * * * * * * * * *
+* W   q a z   R     o p   > *
+*   W   q   Y   B       W   *
+* w   W   W 444444W   W   p *
+* s r   W q a z a q W     o *
+* x 48W w W   46  W q W     *
+* 48B 54s   W Y W   a 42Y   *
+* R   54x 56Y < B 44z 42  R *
+* 50Y 54s   W R W   a 42B   *
+* w 50W w W   54  W q W   q *
+* s b   W w s x s w W   q a *
+* x   W   W 525252W   W   z *
+*   W   o 48B   Y 50p   W   *
+* W   w s x 48R 50w s x   W *
+* * * * * * * * * * * * * * *
+13
+* * * * * * * * * * * * * * *
+* w z 52    y       W     < *
+* a 52            W q       *
+* 52            W q   z     *
+* b           Y q   z   a W *
+*   W       W   48z   a W   *
+* 50W W   W       48a W     *
+* B W o W   58      Y       *
+*   W p o R   58  W         *
+*   W x p o R   W         b *
+*   W s x p o W             *
+*   W w s x p o W         50*
+* 50W W W W W W W W     50z *
+* > 50        B 52  y 50a w *
+* * * * * * * * * * * * * * *
+14
+* * * * * * * * * * * * * * *
+* w x       W ^ W       x w *
+* s     W W W R W W W     s *
+*           W   W           *
+* r W 48    Y   Y     48W r *
+*   W 5048  W y W   4848W   *
+* 52W R W W W b W W W R W 52*
+*   W x x x W   W s s s W   *
+*   W W W W W   W W W W W   *
+*                           *
+*                           *
+*                           *
+* D D D D D D D D D D D D D *
+* <                       > *
+* * * * * * * * * * * * * * *
+15
+* * * * * * * * * * * * * * *
+* >   q             q a z o *
+*           W w W W W W W W *
+*         42W x W p o   p   *
+*       42y W s W o       o *
+* B W W W W W 40W W W y     *
+* 4652  W           W     o *
+* 52    W     C     W     50*
+* w     W           W   5042*
+*     r W W W 40W W W W W Y *
+* s       q W s W b 46      *
+*   x   z a W x W 46        *
+* W W W W W W w W           *
+* o z a q             y   < *
+* * * * * * * * * * * * * * *
+16
+* * * * * * * * * * * * * * *
+* <   W     W i W     W w x *
+*   50  W   W   W   W w x s *
+* W       W W 58W W w x s W *
+*   W       W B W   54s W   *
+*     W   54      56  W     *
+* W W W W     I     W W W W *
+* i   58Y   I > I   Y 58  i *
+* W W W W     I     W W W W *
+*     W   56      56  W     *
+*   W w 54  W R W   54o W   *
+* W w x s W W 58W W o p o W *
+* w x s W   W   W   W o p o *
+* x s W     W i W     W o p *
+* * * * * * * * * * * * * * *
+17
+* * * * * * * * * * * * * * *
+* w s x y W                 *
+* q a z   W                 *
+* q a z 68W           F     *
+* q a 6865W                 *
+* W W W B W                 *
+*                           *
+*             <             *
+*                           *
+*                 W W W W W *
+*                 R 6568  y *
+*                 W 68z z x *
+*                 W a a a s *
+* >               W q q q w *
+* * * * * * * * * * * * * * *
+18
+* * * * * * * * * * * * * * *
+* 82    w     s   Y x   2 > *
+*   W W W W W W W W W W W W *
+* 82    x     w     s     80*
+* W W W W W W W W W W W W   *
+* 75    o   y 76b   o     80*
+*   W W W W W W W W W W W W *
+* 75    w w   2   p p     72*
+* W W W W W W W W W W W W   *
+* 66    w 68  Y s 70    x 72*
+*   W W W W W W W W W W W W *
+*   x   x   s   s   w   w 64*
+* W W W W W W W W W W W W   *
+* < b 48  60Y 60  62  62  64*
+* * * * * * * * * * * * * * *
+19
+* * * * * * * * * * * * * * *
+* 80            B 80      < *
+*   W W W W W W W W W W W W *
+*   W &   88p y R   x p 86  *
+*   W       86p W s b 84    *
+*   W 88      88W p 84      *
+*   W p 88      W 86        *
+*   W r p 88  > W W W W W B *
+* R W W W W W W W       8486*
+* 82Y         W           84*
+*   W 82      W         84  *
+* x W p 82    W       84  p *
+* s W s o 82  W     84  o s *
+* w W y x p 82Y   84  p x y *
+* * * * * * * * * * * * * * *
+20
+* * * * * * * * * * * * * * *
+* w 88q W           W z 86x *
+* 88q   W           W   z 86*
+* q     W     84    B     z *
+* W W B W   W   W   W W W W *
+*         82W R W 82        *
+*       W W W   W W W       *
+*     84  R   <   R   84    *
+*       W W W   W W W       *
+*         82W R W 82        *
+* W W W W   W   W   W R W W *
+* a     B     84    W       *
+* 84a   W           W       *
+* s 84a W           W   r > *
+* * * * * * * * * * * * * * *
+21
+* * * * * * * * * * * * * * *
+* >   W p w w p s s p x x p *
+*     B                     *
+*     W W W W W W W Y R W W *
+*     W y 76b W w x 8686  p *
+* 84  W 76W 76W s 86      b *
+*   84W   W Y W 86  W W W W *
+*     W z W s W     B 76    *
+*     W a W   W     W 76    *
+*     W q W x 84    W 76    *
+* x   W   W         W     L *
+* s   W Y W W W W W W W W W *
+*   R   76      86          *
+* W   s x         86      < *
+* * * * * * * * * * * * * * *
+22
+* * * * * * * * * * * * * * *
+* < W w   W 80  80  W   w w *
+* B W   w R r   r   W 68  s *
+*   W s   W         W 68  x *
+* 80W   x W   70  88B 68  p *
+*   W y   W W B W W W W Y W *
+* w W 70  W   86  82  w w w *
+*   W     W       82  w s x *
+* 82R   84Y       82  w w w *
+* W W W R W 86      W Y W W *
+*       r W Y W W W W 66  w *
+*         W 68    88R 66  s *
+* s       W         W 66  x *
+* > x     Y   82    W   w p *
+* * * * * * * * * * * * * * *
+23
+* * * * * * * * * * * * * * *
+* 84      84      86      86*
+*   W W W W W W W W W W W   *
+* w W 92      92      94W w *
+* b W   W W W W W W W   W b *
+*   W w W w s w s x W w W   *
+* s W   W 99        W   W s *
+* y W s W   W W W   W s W r *
+* Y W   W x W > W 2 W B W   *
+* x W x W s W 2     W x W x *
+*   W   W Y W W W W W   W   *
+* 80W   W 98  w 96  w 96W   *
+*   W   W W W W W W W W W   *
+* < W 90                  88*
+* * * * * * * * * * * * * * *
+24
+* * * * * * * * * * * * * * *
+* y y   90R 95s x W w w w w *
+* r r r   W w 99  W s s s s *
+* b b b   W W R W W x x x x *
+* q b r   W       W x w s 90*
+* W W W W W       W W W W R *
+* w   W     b   y     W w 95*
+* s 99R               R 99s *
+* 95x W     y < r     W   x *
+* R W W W W       W W W W W *
+* 90s x w W       W w w s x *
+* x x x x W W R W W x x x x *
+* s s s s W x 99  W s s s s *
+* w w w w W w s 95R 90w w w *
+* * * * * * * * * * * * * * *
+25
+* * * * * * * * * * * * * * *
+*                           *
+*                           *
+*                           *
+*           W I W           *
+*           W i W           *
+*       W W W 1 W W W       *
+*       I i 1   1 i I       *
+*       W W W 1 W W W       *
+*           W i W           *
+*           W I W           *
+*                           *
+*                           *
+*             0             *
+* * * * * * * * * * * * * * *
+26
+* * * * * * * * * * * * * * *
+* s s s W s s Q s s W x x x *
+* s s 20R x x x x x B 20x x *
+* s 20s W w w 10w w W x 20x *
+* W B W W W W Y W W W W R W *
+* s x w W q q   p p W w x s *
+* s x w W q q   p p W w x s *
+* Q x 10Y           Y 10x Q *
+* s x w W b b   r r W w x s *
+* s x w W b b   r r W w x s *
+* W R W W W W Y W W W W B W *
+* s 20s W w w 10w w W x 20x *
+* s s 20B x x x x x R 20x x *
+* s s s W s s Q s s W x x x *
+* * * * * * * * * * * * * * *
